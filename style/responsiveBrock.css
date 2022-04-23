@@ -1,0 +1,37 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+    
+    .titulo{
+        margin-left: 20px;
+    }
+
+    .imgIrmaos{
+        margin-left: 50px;
+    }
+
+    .imagemBrock {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .imagemFlint{
+        width: 25%;
+    }
+
+    .imgForrest{
+        margin-left: 145px;
+        width: 25%;
+    }
+
+    .descricao{
+        margin-left: 10px;
+        width: 82%;
+        font-size: 16px;
+    }
+}

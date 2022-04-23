@@ -1,0 +1,29 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+    
+    .titulo{
+        margin-left: 20px;
+        font-size: 2em;
+    }
+
+    .imgPryce{
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .imagemPryce{
+        margin-left: 20px;
+    }
+
+    .descricao{
+        margin-left: 10px;
+        width: 85%;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,34 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+    
+    .titulo{
+        margin-left: 20px;
+        font-size: 2em;
+    }
+
+    .imgBlaine{
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .imagemBlaine{
+        margin-left: 65px;
+        width: 60%;
+    }
+
+    .imagemBlaineDois{
+        margin-left: 100px;
+    }
+
+    .descricao{
+        margin-left: 10px;
+        width: 83%;
+        font-size: 15px;
+    }
+}

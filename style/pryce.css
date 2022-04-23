@@ -1,0 +1,67 @@
+.myBackground {
+    background: #eeeaea url(../img/container_bg.png);
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(192, 189, 189);
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(27, 27, 27);
+    border-radius: 30px;
+}
+
+.logo{
+    background: linear-gradient(9000deg, white, red);
+    text-align: center;
+}
+
+#navMenu{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.nav-link{
+    font-size: 25px;
+    font-family: "Flexo Medium";
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+.nav-link:hover
+{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+        background-color: rgb(248, 242, 242);
+        transition: .3s ease all;
+}
+
+.titulo{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+
+.imgPryce{
+    margin-left: 445px;
+}
+
+.descricao{
+    margin-left: 200px;
+    width: 750px;
+    color: #3c3c3c;
+    line-height: 1.5;
+}

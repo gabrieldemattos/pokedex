@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/style/fundo.css">
+    <link rel="stylesheet" href="/style/sceptile.css">
+    <link rel="stylesheet" href="/style/tiposOutros.css">
+    <link rel="stylesheet" href="/style/responsive.css">
+
+    <title>Sceptile</title>
+    <link rel="icon" 
+      type="image/jpg" 
+      href="img/pokedex.jpg" />
+
+</head>
+<body>
+
+    <nav>
+    <a id="voltar" href="index.html"><i class="fa-solid fa-arrow-left">Voltar</a></i>
+    </nav>
+
+
+        <div class="container">
+            <div id="main_img">
+                <img id="img" src="img/sceptile.png">
+            </div>
+        </div>
+
+        <div class="statusPoke" >
+            <p text-align: left; id="paragrafo">As folhas que crescem no corpo de Sceptile são muito afiadas. Este Pokémon é muito ágil - salta por cima dos galhos das árvores e salta sobre o inimigo por cima ou por trás.</p><br>
+
+            <p>Versões:</p>
+
+                
+                <button class="botaoTrocar" role="button" onclick='changeImage("../img/sceptile.png", descricao);'> Sceptile</button>
+                <button class="botaoTrocar" role="button" onclick='changeImage("../img/megasceptile.png", descricao);'> Mega Sceptile</button>
+                <button class="botaoTrocar" role="button" onclick='changeImage("../img/shinysceptile.png", descricao);'> Shiny Sceptile</button><br><br>
+                
+
+                <p>Tipo</p>
+                <a class="elementosPoke">
+                 <p id="descricao" class="tipoPlanta">Planta</p>
+                 <p id="descricaoDois" style="display:none" class="tipoDragon">Dragão</p>
+                </a>
+
+                <p>Fraquezas</p>
+                <a class="elementosPoke">
+                <p id="fraquezas" style="display:none" class="tipoDragon">Dragon</p>
+                <p id="fraquezasDois" style="display:none" class="tipoFada">Fada</p>
+                 <p id="fraquezasTres" class="tipoFire">Fogo</p>
+                 <p id="fraquezasQuatro" class="tipoVoador">Voador</p>
+                 <p id="fraquezasCinco" class="tipoGelo">Gelo</p>
+                 <p id="fraquezasSeis" class="tipoPoison">Venenoso</p>
+                 <p id="fraquezasSete" class="tipoBug">Inseto</p>
+                </a>
+            
+            </div>
+
+
+            <script src="/js/sceptile.js"></script>
+            <script src="https://kit.fontawesome.com/5e682d64bc.js" crossorigin="anonymous"></script>
+            <script src="/js/jquery.min.js"></script>
+
+
+</body>
+</html>

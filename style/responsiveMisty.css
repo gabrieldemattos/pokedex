@@ -1,0 +1,44 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+    
+    .titulo{
+        margin-left: 20px;
+        font-size: 1.5em;
+        width: 80%;
+    }
+
+    .imagens {
+        margin-left: 60px;
+        width: 60%;
+    }
+
+    .imagemIrmas{
+        margin-left: 0px;
+    }
+
+    .imagensDois {
+        width: 35%;
+        margin-left: 20px;
+    }
+
+    #lily{
+        margin-left: 90px;
+    }
+
+    .imagensTres {
+        margin-left: 0px;
+        width: 80%;
+    }
+
+    .descricao{
+        margin-left: 10px;
+        width: 82%;
+        font-size: 16px;
+    }
+}

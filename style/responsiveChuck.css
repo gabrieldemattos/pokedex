@@ -1,0 +1,33 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+    
+    .titulo{
+        margin-left: 20px;
+        font-size: 2em;
+    }
+
+    .imgChuck{
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .imagemChuck{
+        margin-left: 40px;
+    }
+
+    .imagemChuckDois{
+        margin-left: 40px;
+    }
+
+    .descricao{
+        margin-left: 10px;
+        width: 83%;
+        font-size: 15px;
+    }
+}

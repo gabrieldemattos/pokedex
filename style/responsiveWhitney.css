@@ -1,0 +1,37 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+    
+    .titulo{
+        margin-left: 20px;
+        font-size: 2em;
+    }
+
+    .imgWhitney{
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .imagemWhitney{
+        margin-left: 85px;
+    }
+
+    .imagemWhitneyDois{
+        margin-left: 80px;
+    }
+
+    .imagemWhitneyTres{
+        margin-left: 40px;
+    }
+
+    .descricao{
+        margin-left: 10px;
+        width: 90%;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,254 @@
+.tipoNormal{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #a4acaf;
+    border-radius: 3px;
+    font-weight: normal;
+    color: #212121;
+    text-align: center;
+}
+
+.tipoDark{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.tipoBug{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #729f3f;
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.tipoFada{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: pink;
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.tipoLutador{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #d56723;
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.tipoVoador{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-image: linear-gradient(1deg, rgba(189, 195, 197, 0.966), rgba(5, 163, 202, 0.884));
+    border-radius: 3px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+.tipoGelo{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgba(5, 163, 202, 0.884);
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.tipoFire{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #fd7d24;
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.tipoPoison{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(189, 27, 189);
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.tipoPlanta{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(16, 175, 16);
+    border-radius: 3px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+.tipoEletrico{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #eed535;
+    border-radius: 3px;
+    font-weight: normal;
+    color: #212121;
+    text-align: center;
+}
+
+.tipoGround{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-image: linear-gradient(1deg, rgba(252, 213, 85, 0.966), rgba(145, 148, 3, 0.884));
+    border-radius: 3px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+.tipoDragon{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-image: linear-gradient(1deg, #53a4cf, #f16e57);
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.tipoWater{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(0, 195, 255);
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.tipoPedra{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-image: linear-gradient(1deg, #a38c21, #a38c21);
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.tipoPsy{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(245, 38, 183);
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.tipoGhost{
+    margin-top: 1px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    padding-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #7b62a3;
+    border-radius: 3px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}

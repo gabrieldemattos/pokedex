@@ -1,0 +1,37 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+    
+    .titulo{
+        margin-left: 20px;
+        font-size: 2em;
+    }
+
+    .imgClair{
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .imagemClair{
+        margin-left: 10px;
+    }
+
+    .imagemClairDois{
+        margin-left: 20px;
+    }
+
+    .imagemClairTres{
+        margin-left: 50px;
+    }
+
+    .descricao{
+        margin-left: 10px;
+        width: 88%;
+        font-size: 15px;
+    }
+}

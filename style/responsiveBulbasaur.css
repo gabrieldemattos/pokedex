@@ -1,0 +1,44 @@
+@media screen and (max-width:1350px){
+    body .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    div{
+        width: 350px;
+        height: 350px;
+    }
+
+    .img {
+        width: 390px;
+    }
+
+    .statusPoke{
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 100px;
+    }
+    
+    .evolutions{
+        margin-top: 740px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .evoBulba{
+        font-size: 80px;
+        margin-top: 80px;
+        position: relative;
+    }
+
+    .evoDescricao{
+        margin-left: 40px;
+        height: 40px;
+        width: 350px;
+    }
+
+    .ivysaur{
+        margin-top: -100px;
+    }
+}

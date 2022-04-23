@@ -1,0 +1,31 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+    
+    .titulo{
+        margin-left: 20px;
+    }
+
+    .imgSabrina{
+        margin-left: 0px;
+    }
+
+    .imagemSabrina{
+        margin-left: 110px;
+    }
+
+    .imagemSabrinaDois{
+        margin-left: 110px;
+    }
+
+    .descricao{
+        margin-left: 10px;
+        width: 86%;
+        font-size: 16px;
+    }
+}

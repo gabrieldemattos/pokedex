@@ -1,0 +1,35 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+    
+    .titulo{
+        margin-left: 20px;
+        font-size: 2em;
+    }
+
+    .imgSurge {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .ltSurge{
+        width: 90%;
+        margin-left: 5px;
+    }
+
+    .ltSurgeDois{
+        width: 50%;
+        margin-left: 60px;
+    }
+
+    .descricao{
+        margin-left: 10px;
+        width: 82%;
+        font-size: 16px;
+    }
+}

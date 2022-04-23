@@ -1,0 +1,17 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+
+    #fonteNomePoke{
+        display: block;
+    }
+
+    #elementosPoke{
+        display: inline-block;
+    }
+}

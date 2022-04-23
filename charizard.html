@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/style/fundo.css">
+    <link rel="stylesheet" href="/style/charizard.css">
+    <link rel="stylesheet" href="/style/tiposOutros.css">
+    <link rel="stylesheet" href="/style/responsive.css">
+
+    <title>Charizard</title>
+    <link rel="icon" 
+      type="image/jpg" 
+      href="img/pokedex.jpg" />
+
+</head>
+<body>
+
+    <nav>
+    <a id="voltar" href="index.html"><i class="fa-solid fa-arrow-left">Voltar</a></i>
+    </nav>
+
+
+        <div class="container">
+            <div id="main_img">
+                <img id="img" src="img/charizard.png">
+            </div>
+        </div>
+
+        <div class="statusPoke" >
+            <p text-align: left; id="paragrafo">Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.</p><br>
+
+            <p>Versões:</p>
+
+                
+                <button class="botaoTrocar" role="button" onclick='changeImage("../img/charizard.png", descricao);'> Charizard</button>
+                <button class="botaoTrocar" role="button" onclick='changeImage("../img/megazardx.png", descricao);'> Mega Charizard X</button>
+                <button class="botaoTrocar" role="button" onclick='changeImage("../img/shinyzard.png", descricao);'> Shiny Charizard </button><br><br>
+                <button class="botaoTrocar" role="button" onclick='changeImage("../img/megazardy.png", descricao);'> Mega Charizard Y</button>
+                <button class="botaoTrocar" role="button" onclick='changeImage("../img/gigantamaxzard.png", descricao);'> Gigantamax Charizard</button><br><br>
+                
+
+                <p>Tipo</p>
+                <a class="elementosPoke">
+                 <p id="descricao" class="tipoFire">Fogo</p>
+                 <p id="descricaoDois" class="tipoVoador">Voador</p>
+                 <p id="descricaoTres" style="display:none" class="tipoDragon">Dragão</p>
+                </a>
+
+                <p>Fraquezas</p>
+                <a class="elementosPoke">
+                <p id="fraquezas" style="display:none" class="tipoDragon">Dragão</p>
+                <p id="fraquezasUm" style="display:none" class="tipoPedra">Pedra</p>
+                <p id="fraquezasDois" style="display:none" class="tipoGround">Terra</p>
+                 <p id="fraquezasTres" class="tipoWater">Água</p>
+                 <p id="fraquezasQuatro" class="tipoEletrico">Elétrico</p>
+                 <p id="fraquezasCinco" class="tipoPedra">Pedra</p>
+                </a>
+            
+            </div>
+
+
+            <script src="/js/charizard.js"></script>
+            <script src="https://kit.fontawesome.com/5e682d64bc.js" crossorigin="anonymous"></script>
+            <script src="/js/jquery.min.js"></script>
+
+
+</body>
+</html>

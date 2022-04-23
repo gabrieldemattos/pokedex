@@ -1,0 +1,145 @@
+@import url(//db.onlinewebfonts.com/c/d2d21cf0ee4c1d969d8a4dccc587ab26?family=Flexo+Medium);
+
+@font-face {font-family: "Flexo Medium"; src: url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.eot"); src: url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.woff") format("woff"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.svg#Flexo Medium") format("svg"); }
+
+body {
+    background: #424242 url(../img/container_bg.png);
+}
+
+.logo{
+    background: linear-gradient(9000deg, white, red);
+    text-align: center;
+}
+
+#navMenu{
+    background-color: white;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    color: rgb(182, 179, 179);
+}
+
+#back-to-top:hover {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    color: rgb(88, 86, 86);
+    transition: 0.5s;
+}
+
+#distanciaLogo{
+    margin-top: 25px;
+}
+
+.container{
+    color: black;
+    font-weight: bold;
+}
+
+#propriedades{
+    border-radius: 15px;
+    background-image: linear-gradient(1deg, rgb(241, 240, 240), rgb(241, 240, 240));
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    margin-right: 5px;
+    overflow: hidden;
+
+    transition: .8s ease all;
+}
+ 
+.img-container img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ .img-container:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+ #propriedades:hover{
+    background: rgb(216, 214, 214);
+ }
+
+#numeroPoke{
+    font-family: "Flexo Medium";
+    color:gray;
+    font-size: 13px;
+    margin-right: 110px;
+}
+
+#fonteNomePoke{
+    font-family: "Flexo Medium";
+    color:black;
+    font-size:22px;
+    display: flex;
+    margin-left: 55px;
+    margin-right: 110px;
+}
+
+#elementosPoke{
+    font-family: "Flexo Medium";
+    display: flex;
+    margin-left: 55px;
+    margin-right: 110px;
+}
+
+.classeGeracao{
+    text-align: left;
+    font-size: 40px;
+    font-family: "Flexo Medium";
+}
+
+.selecaoPokemon{
+    text-align: left;
+    font-size: 20px;
+    font-family: "Flexo Medium";
+    margin-left: 10px;
+}
+
+.nav-link{
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: "Flexo Medium";
+    margin-bottom: 5px;
+}
+
+.nav-link:hover
+{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+        background-color: rgb(248, 242, 242);
+        transition: .3s ease all;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(192, 189, 189);
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(27, 27, 27);
+    border-radius: 30px;
+}
+
+#rodape{
+    font-size: 25px;
+}

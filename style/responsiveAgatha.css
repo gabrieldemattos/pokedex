@@ -1,0 +1,33 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+    
+    .titulo{
+        margin-left: 20px;
+        font-size: 1.8em;
+    }
+
+    .imgs{
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .imgAgatha{
+        margin-left: 75px;
+    }
+
+    .imgGiovanni{
+        margin-left: 65px;
+    }
+
+    .descricao{
+        margin-left: 10px;
+        width: 82%;
+        font-size: 15px;
+    }
+}

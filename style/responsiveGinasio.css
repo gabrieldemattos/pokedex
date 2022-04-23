@@ -1,0 +1,33 @@
+@media screen and (max-width:1000px){
+    .logo_img{
+        width: 200px;
+    }
+
+    .pokeball_img{
+        width: 50px;
+    }
+
+    .nav-link{
+        font-size: 20px;
+    }
+
+    .kanto{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .logoGinasio{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .logoGinasioDois{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .logoGinasioTres{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+}

@@ -38,6 +38,12 @@ div {
     height: 100%;
 }
 
+.nomePrincipal{
+    text-align: center;
+    font-family: "Flexo Medium";   
+    margin-top: 20px;
+}
+
 .elementosPoke{
     font-family: "Flexo Medium";
     display: flex;

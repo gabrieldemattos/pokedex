@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/style/fundo.css">
+    <link rel="stylesheet" href="/style/rattata.css">
+    <link rel="stylesheet" href="/style/tiposOutros.css">
+    <link rel="stylesheet" href="/style/responsive.css">
+
+    <title>Rattata</title>
+    <link rel="icon" 
+      type="image/jpg" 
+      href="img/pokedex.jpg" />
+
+</head>
+<body>
+
+    <nav>
+    <a id="voltar" href="index.html"><i class="fa-solid fa-arrow-left">Voltar</a></i>
+    </nav>
+
+
+        <div class="container">
+            <div id="main_img">
+                <h1 class="nomePrincipal">Rattata Nº019</h1>
+                <img id="img" src="../img/rattata.png">
+            </div>
+        </div>
+
+        <div class="statusPoke" >
+            <p text-align: left; id="paragrafo">Vai mastigar qualquer coisa com suas presas. Se você vir um, pode ter certeza de que mais 40 vivem na área.</p><br>
+
+            <p>Versões:</p>
+
+                
+                <button class="botaoTrocar" role="button" onclick='changeImage("../img/rattata.png", descricao);'> Rattata</button>
+                <button class="botaoTrocar" role="button" onclick='changeImage("../img/alolanrattata.png", descricao);'> Alolan Rattata </button>
+                <button class="botaoTrocar" role="button" onclick='changeImage("../img/shinyrattata.png", descricao);'> Shiny Rattata</button><br><br>
+                
+
+                <p>Tipo</p>
+                <a class="elementosPoke">
+                <p id="descricao" class="tipoNormal">Normal</p>
+                <p id="descricaoDois" style="display:none" class="tipoDark">Noturno</p>
+                </a>
+
+                <p>Fraquezas</p>
+                <a class="elementosPoke">
+                <p id="fraquezas" style="display:none" class="tipoFada">Fada</p>
+                <p id="fraquezasDois" style="display:none" class="tipoBug">Inseto</p>
+                <p id="descricao" class="tipoLutador">Lutador</p>
+                </a>
+            
+            </div>
+
+            <script src="/js/rattata.js"></script>
+            <script src="https://kit.fontawesome.com/5e682d64bc.js" crossorigin="anonymous"></script>
+            <script src="/js/jquery.min.js"></script>
+
+
+</body>
+</html>

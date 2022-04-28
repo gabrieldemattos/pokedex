@@ -1,0 +1,111 @@
+#propriedadesGrass{
+    border-radius: 15px;
+    background: rgb(241,240,240);
+    border: solid 1px rgb(120, 200, 80);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    -webkit-transition: box-shadow 800ms ease-in-out, color 800ms ease-in-out;
+    transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+#propriedadesGrass:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+ #propriedadesFire{
+    border-radius: 15px;
+    background: rgb(241,240,240);
+    border: solid 1px orangered;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    -webkit-transition: box-shadow 800ms ease-in-out, color 800ms ease-in-out;
+    transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+#propriedadesFire:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px orangered inset; 
+}
+
+#propriedadesWater{
+    border-radius: 15px;
+    background: rgb(241,240,240);
+    border: solid 1px rgb(104, 144, 240);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    -webkit-transition: box-shadow 800ms ease-in-out, color 800ms ease-in-out;
+    transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+#propriedadesWater:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(104, 144, 240) inset; 
+}
+
+#propriedadesBug{
+    border-radius: 15px;
+    background: rgb(241,240,240);
+    border: solid 1px rgb(168, 184, 32);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    -webkit-transition: box-shadow 800ms ease-in-out, color 800ms ease-in-out;
+    transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+#propriedadesBug:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(168, 184, 32) inset; 
+}
+
+#propriedadesNormal{
+    border-radius: 15px;
+    background: rgb(241,240,240);
+    border: solid 1px rgb(151, 149, 149);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    -webkit-transition: box-shadow 800ms ease-in-out, color 800ms ease-in-out;
+    transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+#propriedadesNormal:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(151, 149, 149) inset; 
+}
+
+#propriedadesPoison{
+    border-radius: 15px;
+    background: rgb(241,240,240);
+    border: solid 1px rgb(160, 64, 160);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    -webkit-transition: box-shadow 800ms ease-in-out, color 800ms ease-in-out;
+    transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+#propriedadesPoison:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(160, 64, 160) inset; 
+}
+
+#propriedadesPsy{
+    border-radius: 15px;
+    background: rgb(241,240,240);
+    border: solid 1px rgb(248, 88, 136);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    -webkit-transition: box-shadow 800ms ease-in-out, color 800ms ease-in-out;
+    transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+#propriedadesPsy:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(248, 88, 136) inset; 
+}

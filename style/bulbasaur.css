@@ -3,106 +3,90 @@
 @font-face {font-family: "Flexo Medium"; src: url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.eot"); src: url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.woff") format("woff"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.svg#Flexo Medium") format("svg"); }
 
 body{
-    background-color: rgb(133, 193, 37);
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 div {
-    width: 500px;
-    height: 500px;
     display: inline-block;
 }
 
-#voltar{
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+header .navBar{
+    background:rgb(201, 201, 202);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px 25px;
 }
 
-.container {
+header nav a{
+    font-family: "Flexo Medium";
+    margin-right: 10px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: rgb(26, 127, 241);
+}
+
+.fa-solid{
+    margin-top: 5px;
+}
+
+#before{
+    font-family: "Flexo Medium";
+}
+
+.container{
+    margin-top: 25px;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imagem {
+    width: 490px;
+    height: 500px;
     background-color: transparent;    
 }
 
 .statusPoke {
+    width: 500px;
+    height: 500px;
     background-color: transparent;
     float: right;
-    margin-right: 300px;
-    font-size: 22px;
+    font-size: 19px;
     font-family: "Flexo Medium";    
+}
+
+#paragrafo{
+    margin-top: 0px;
 }
 
 .nomePrincipal{
     text-align: center;
     font-family: "Flexo Medium";   
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 #img{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    background: rgb(241, 240, 240);
+    border-radius: 15px;
+    margin-left: 25px;
 }
 
 .elementosPoke{
     font-family: "Flexo Medium";
     display: flex;
-}
-
-.evolutions{
-    margin-top: 100px;
-    width: 1000px;
-    height: 370px;
-    font-family: "Flexo Medium";
-}
-
-.evoBulba{
-    font-size: 80px;
-    margin-top: 50px;
-    position: absolute;
-}
-
-.imgEvo{
-    width: 20%;
-    border: solid 4px white;
-    background: gray url(../img/container_bg.png);
-    margin-left: 90px;
-    border-radius: 200px;
-}
-
-.evoNomes{
-    font-size: 25px;
-    margin-left: 90px;
-    margin-top: 10px;
-    height: 30px;
-    width: 900px;
-}
-
-.evoDescricao{
-    margin-left: 30px;
-    height: 40px;
-    width: 900px;
-}
-
-#fonteElementos{
-    font-size: 15px;
-    width: 60px;
-    height: 21px;
-}
-
-.ivysaur{
-    margin-left: 110px;
-}
-
-.venusaur{
-    margin-left: 120px;
-}
-
-#ivyDescricao{
-    margin-left: 170px;
-}
-
-#venuDescricao{
-    margin-left: 170px;
+    margin-top: -15px;
 }
 
 ::-webkit-scrollbar{

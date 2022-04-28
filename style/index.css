@@ -2,7 +2,7 @@
 
 @font-face {font-family: "Flexo Medium"; src: url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.eot"); src: url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.woff") format("woff"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.svg#Flexo Medium") format("svg"); }
 
-body {
+body{
     background: #424242 url(../img/container_bg.png);
 }
 
@@ -34,25 +34,15 @@ body {
     transition: 0.5s;
 }
 
-#distanciaLogo{
+.distanciaLogo{
     margin-top: 25px;
 }
 
 .container{
-    color: black;
     font-weight: bold;
-}
-
-#propriedades{
+    background: white;
     border-radius: 15px;
-    background-image: linear-gradient(1deg, rgb(241, 240, 240), rgb(241, 240, 240));
-    width: 200px;
-    height: 200px;
-    margin-left: 40px;
-    margin-right: 5px;
-    overflow: hidden;
-
-    transition: .8s ease all;
+    color: black;
 }
  
 .img-container img{
@@ -67,31 +57,28 @@ body {
     transform: scale(1.1);
  }
 
- #propriedades:hover{
-    background: rgb(216, 214, 214);
- }
-
-#numeroPoke{
+.numeroPoke{
     font-family: "Flexo Medium";
     color:gray;
     font-size: 13px;
-    margin-right: 110px;
+    margin-right: 160px;
 }
 
-#fonteNomePoke{
+.fonteNomePoke{
     font-family: "Flexo Medium";
     color:black;
     font-size:22px;
     display: flex;
-    margin-left: 55px;
-    margin-right: 110px;
+    margin-left: 30px;
+    margin-top: -10px;
 }
 
-#elementosPoke{
+.elementosPoke{
     font-family: "Flexo Medium";
     display: flex;
-    margin-left: 55px;
-    margin-right: 110px;
+    margin-left: 30px;
+    margin-top: -15px;
+    margin-bottom: 20px;
 }
 
 .classeGeracao{
@@ -105,6 +92,7 @@ body {
     font-size: 20px;
     font-family: "Flexo Medium";
     margin-left: 10px;
+    border: 1px solid black;
 }
 
 .nav-link{

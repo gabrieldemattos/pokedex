@@ -33,6 +33,12 @@ div {
     font-family: "Flexo Medium";    
 }
 
+.nomePrincipal{
+    text-align: center;
+    font-family: "Flexo Medium";   
+    margin-top: 20px;
+}
+
 #img{
     width: 100%;
     height: 100%;

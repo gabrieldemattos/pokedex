@@ -7,11 +7,21 @@
         width: 50px;
     }
 
-    #fonteNomePoke{
-        display: block;
+    .numeroPoke{
+        margin: auto;
     }
 
-    #elementosPoke{
-        display: inline-block;
+    .fonteNomePoke{
+        display: block;
+        margin: auto;
+    }
+
+    .elementosPoke{
+        display: inline-flex;
+        margin: auto;
+    }
+
+    .propriedades{
+        margin: auto;
     }
 }

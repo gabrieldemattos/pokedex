@@ -3,10 +3,47 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 90%;
+        height: 0px;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        transform: translate(0%, 0%);
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    .nomePrincipal{
+        width: 90%;
+    }
+
+    #img{
+        margin-left: 0px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .imagem{
+        width: 100%;
+        text-align: center;
+    }
+
+    header .navBar{
+        display: flex;
+        width: 100%;
+    }
+
+    header nav a{
+        font-size: 25px;
     }
 
     .statusPoke{
-        width: 400px;
-        height: 500px;
+        width: 90%;
+        height: 0px;
+        align-items: center;
+    }
+
+    .elementosPoke{
+        width: 100%;
     }
 }   

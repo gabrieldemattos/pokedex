@@ -3,10 +3,10 @@ function changeImage(a) {
 
 switch(a){
     case "../img/butterfree.png":
-        document.getElementById("paragrafo").innerHTML = "Na batalha, ele bate as asas em grande velocidade para liberar poeira altamente tóxica no ar.";
+        document.getElementById("paragrafo").innerHTML = "Na batalha, ele bate as asas em grande velocidade para liberar poeira altamente tóxica no ar.<br><br>";
         break;
     case "../img/shinybutterfree.png":
-        document.getElementById("paragrafo").innerHTML = "Na batalha, ele bate as asas em grande velocidade para liberar poeira altamente tóxica no ar.";
+        document.getElementById("paragrafo").innerHTML = "Na batalha, ele bate as asas em grande velocidade para liberar poeira altamente tóxica no ar.<br><br>";
         break;
     case "../img/gigantamaxbutterfree.png":
         document.getElementById("paragrafo").innerHTML = "A energia Gigantamax cristalizada compõe as escamas incrivelmente brilhantes e altamente tóxicas deste Pokémon.";

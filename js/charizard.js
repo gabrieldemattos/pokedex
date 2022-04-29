@@ -14,7 +14,7 @@ switch(a){
         document.getElementById("fraquezasCinco").style.display = 'block';
         break;
     case "../img/megazardx.png":
-        document.getElementById("paragrafo").innerHTML = "O poder avassalador que preenche todo o seu corpo faz com que ele fique preto e crie intensas chamas azuis.";
+        document.getElementById("paragrafo").innerHTML = "O poder avassalador que preenche todo o seu corpo faz com que ele fique preto e crie intensas chamas azuis.<br><br>";
         document.getElementById("descricaoDois").style.display = 'none';
         document.getElementById("descricaoTres").style.display = 'block';
         document.getElementById("fraquezas").style.display = 'block';
@@ -47,7 +47,7 @@ switch(a){
         document.getElementById("fraquezasCinco").style.display = 'block';
         break;
     case "../img/gigantamaxzard.png":
-        document.getElementById("paragrafo").innerHTML = "Esta figura colossal de asas de fogo de um Charizard foi provocada pela energia Gigantamax.";
+        document.getElementById("paragrafo").innerHTML = "Esta figura colossal de asas de fogo de um Charizard foi provocada pela energia Gigantamax.<br><br>";
         document.getElementById("descricaoDois").style.display = 'block';
         document.getElementById("descricaoTres").style.display = 'none';
         document.getElementById("fraquezas").style.display = 'none';

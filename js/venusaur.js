@@ -6,7 +6,7 @@ switch(a){
         document.getElementById("paragrafo").innerHTML = "Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz do sol.";
         break;
     case "../img/megavenu.png":
-        document.getElementById("paragrafo").innerHTML = "Para sustentar sua flor, que cresceu devido à Mega Evolução, suas costas e pernas ficaram mais fortes.";
+        document.getElementById("paragrafo").innerHTML = "Para sustentar sua flor, que cresceu devido à Mega Evolução, suas costas e pernas ficaram mais fortes.<br><br>";
         break;
     case "../img/shinyvenu.png":
         document.getElementById("paragrafo").innerHTML = "Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz do sol.";

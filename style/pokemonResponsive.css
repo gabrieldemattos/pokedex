@@ -31,10 +31,15 @@
     header .navBar{
         display: flex;
         width: 100%;
+        justify-content: space-evenly;
     }
 
     header nav a{
-        font-size: 25px;
+        font-size: 19px;
+    }
+
+    #icone-voltar{
+        width: 30px;
     }
 
     .statusPoke{
@@ -45,5 +50,19 @@
 
     .elementosPoke{
         width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btn{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 90px;
+    }
+
+    .botaoTrocar{
+        margin-right: 5px;
     }
 }   

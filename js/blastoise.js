@@ -12,7 +12,7 @@ switch(a){
         document.getElementById("paragrafo").innerHTML = "Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.";
         break;
     case "../img/gigantamaxtoise.png":
-        document.getElementById("paragrafo").innerHTML = "Não é muito bom em tiro de precisão. Ao atacar, ele apenas dispara seus 31 canhões repetidamente.";
+        document.getElementById("paragrafo").innerHTML = "Não é muito bom em tiro de precisão. Ao atacar, ele apenas dispara seus 31 canhões repetidamente.<br><br>";
         break;
 }
 }

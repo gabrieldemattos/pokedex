@@ -1,37 +1,40 @@
-<img src="C:\pokedex\screenshots\logo.png" alt="logo" style="zoom:100%;" />
+<h1 align="center"> <img src="https://github.com/gabrieldemattos/pokedex/blob/main/screenshots/logo.png" alt="logo" style="zoom:100%;" /> </h1>
 
 
 
 
 
-### <center>Página inicial do projeto</center>
+<h2 align="center">Página inicial do projeto</h2>
 
-![pagina-inicial](C:\pokedex\screenshots\pagina-inicial.png)
+![pagina-inicial](https://github.com/gabrieldemattos/pokedex/blob/main/screenshots/pagina-inicial.png)
 
-![Animação](C:\pokedex\screenshots\pag-inicial.gif)
+![Animação](https://github.com/gabrieldemattos/pokedex/blob/main/screenshots/pag-inicial.gif)
 
-
-
-
-
-### <center>Página dos líderes de Ginásio</center>
-
-![pagina-ginasios](C:\pokedex\screenshots\pagina-ginasios.png)
-
-![ginasio](C:\pokedex\screenshots\ginasio.gif)
+<br>
 
 
 
 
+<h2 align="center">Página dos líderes de Ginásio</h2>
 
-### <center>Página da Pokedéx de um Pokémon</center>
+![pagina-ginasios](https://github.com/gabrieldemattos/pokedex/blob/main/screenshots/pagina-ginasios.png)
 
-![pokemon](C:\pokedex\screenshots\pokemon.gif)
+![ginasio](https://github.com/gabrieldemattos/pokedex/blob/main/screenshots/ginasio.gif)
+
+<br>
+
+
+
+
+
+<h2 align="center">Página da Pokedéx de um Pokémon</h2>
+
+![pokemon](https://github.com/gabrieldemattos/pokedex/blob/main/screenshots/pokemon.gif)
 
 
 
 ## O projeto
 
-Criado na intenção de treinar HTML, CSS, JavaScript e responsividade.
+Criado na intenção de treinar HTML, CSS, JavaScript, Bootstrap e responsividade.
 
-A ideia surgiu a partir de vários outros modelos de pokedéx que podem ser encontradas na Internet, todos os dados (nome, número, tipo, imagem, etc..) de cada Pokémon foi consultado no <a href="www.google.com.br">Google</a> 
+A ideia surgiu a partir de vários outros modelos de pokedéx que podem ser encontradas na Internet, todos os dados (nome, número, tipo, imagem, etc..) de cada Pokémon foi consultado no <a href="www.google.com.br">Google</a>.

@@ -1,7 +1,7 @@
-#propriedadesGrass{
+#a1,#a2,#a3,#a25,#a26,#a27,#a37,#a38,#a39,#a41,#a42,#a43,#a46,#a47,#a48,#a49,#a50,#a51,#a53,#a54,#a55,#a57,#a58,#a59{
     border-radius: 15px;
     background: rgb(241,240,240);
-    border: solid 1px rgb(120, 200, 80);
+    border: solid 3px rgb(120, 200, 80);
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -9,15 +9,129 @@
     transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
-#propriedadesGrass:hover{
+#a1:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+#a2:hover{
     background: rgb(216, 214, 214);
     box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
 }
 
- #propriedadesFire{
+#a3:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a25:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a26:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a27:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a37:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a38:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a39:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a41:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a42:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a43:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a46:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a47:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a48:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a49:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a50:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a51:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a53:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a54:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a55:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a57:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a58:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+#a59:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(120, 200, 80) inset; 
+}
+
+ #a4,#a5,#a6,#a28,#a29,#a30,#a40,#a44,#a52,#a56,#a60{
     border-radius: 15px;
     background: rgb(241,240,240);
-    border: solid 1px orangered;
+    border: solid 3px orangered;
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -25,15 +139,65 @@
     transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
-#propriedadesFire:hover{
+#a4:hover{
     background: rgb(216, 214, 214);
     box-shadow: 0 0 40px 40px orangered inset; 
 }
 
-#propriedadesWater{
+#a5:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px orangered inset; 
+}
+
+#a6:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px orangered inset; 
+}
+
+#a28:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px orangered inset; 
+}
+
+#a29:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px orangered inset; 
+}
+
+#a30:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px orangered inset; 
+}
+
+#a40:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px orangered inset; 
+}
+
+#a44:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px orangered inset; 
+}
+
+#a52:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px orangered inset; 
+}
+
+#a56:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px orangered inset; 
+}
+
+#a60:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px orangered inset; 
+}
+
+#a7,#a8,#a9,#a31,#a32,#a33{
     border-radius: 15px;
     background: rgb(241,240,240);
-    border: solid 1px rgb(104, 144, 240);
+    border: solid 3px rgb(104, 144, 240);
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -41,15 +205,40 @@
     transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
-#propriedadesWater:hover{
+#a7:hover{
     background: rgb(216, 214, 214);
     box-shadow: 0 0 40px 40px rgb(104, 144, 240) inset; 
 }
 
-#propriedadesBug{
+#a8:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(104, 144, 240) inset; 
+}
+
+#a9:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(104, 144, 240) inset; 
+}
+
+#a31:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(104, 144, 240) inset; 
+}
+
+#a32:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(104, 144, 240) inset; 
+}
+
+#a33:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(104, 144, 240) inset; 
+}
+
+#a10,#a11,#a12,#a13,#a14,#a15{
     border-radius: 15px;
     background: rgb(241,240,240);
-    border: solid 1px rgb(168, 184, 32);
+    border: solid 3px rgb(168, 184, 32);
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -57,15 +246,40 @@
     transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
-#propriedadesBug:hover{
+#a10:hover{
     background: rgb(216, 214, 214);
     box-shadow: 0 0 40px 40px rgb(168, 184, 32) inset; 
 }
 
-#propriedadesNormal{
+#a11:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(168, 184, 32) inset; 
+}
+
+#a12:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(168, 184, 32) inset; 
+}
+
+#a13:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(168, 184, 32) inset; 
+}
+
+#a14:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(168, 184, 32) inset; 
+}
+
+#a15:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(168, 184, 32) inset; 
+}
+
+#a16,#a17,#a18,#a19,#a20,#a21,#a22,#a34,#a35,#a36{
     border-radius: 15px;
     background: rgb(241,240,240);
-    border: solid 1px rgb(151, 149, 149);
+    border: solid 3px rgb(151, 149, 149);
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -73,15 +287,60 @@
     transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
-#propriedadesNormal:hover{
+#a16:hover{
     background: rgb(216, 214, 214);
     box-shadow: 0 0 40px 40px rgb(151, 149, 149) inset; 
 }
 
-#propriedadesPoison{
+#a17:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(151, 149, 149) inset; 
+}
+
+#a18:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(151, 149, 149) inset; 
+}
+
+#a19:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(151, 149, 149) inset; 
+}
+
+#a20:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(151, 149, 149) inset; 
+}
+
+#a21:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(151, 149, 149) inset; 
+}
+
+#a22:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(151, 149, 149) inset; 
+}
+
+#a34:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(151, 149, 149) inset; 
+}
+
+#a35:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(151, 149, 149) inset; 
+}
+
+#a36:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(151, 149, 149) inset; 
+}
+
+#a23,#a24{
     border-radius: 15px;
     background: rgb(241,240,240);
-    border: solid 1px rgb(160, 64, 160);
+    border: solid 3px rgb(160, 64, 160);
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -89,15 +348,20 @@
     transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
-#propriedadesPoison:hover{
+#a23:hover{
     background: rgb(216, 214, 214);
     box-shadow: 0 0 40px 40px rgb(160, 64, 160) inset; 
 }
 
-#propriedadesPsy{
+#a24:hover{
+    background: rgb(216, 214, 214);
+    box-shadow: 0 0 40px 40px rgb(160, 64, 160) inset; 
+}
+
+#a45{
     border-radius: 15px;
     background: rgb(241,240,240);
-    border: solid 1px rgb(248, 88, 136);
+    border: solid 3px rgb(248, 88, 136);
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -105,7 +369,7 @@
     transition: transform .5s ease, box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
-#propriedadesPsy:hover{
+#a45:hover{
     background: rgb(216, 214, 214);
     box-shadow: 0 0 40px 40px rgb(248, 88, 136) inset; 
 }

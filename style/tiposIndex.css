@@ -5,6 +5,7 @@
     background-color: rgb(16, 175, 16);
     border-radius: 3px;
     font-weight: normal;
+    color: black;
 }
 
 #tipoPoison{
@@ -34,6 +35,7 @@
     background-image: linear-gradient(1deg, rgba(189, 195, 197, 0.966), rgba(5, 163, 202, 0.884));
     border-radius: 3px;
     font-weight: normal;
+    color: black;
 }
 
 #tipoWater{

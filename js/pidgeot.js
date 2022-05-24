@@ -1,15 +1,16 @@
-function changeImage(a) {
-    document.getElementById("img").src=a;
+function changeImage(){
+    const op = document.getElementById('selectOption').value;
+    const img = document.getElementById("img");
+    const paragrafo = document.getElementById("paragrafo");
 
-switch(a){
-    case "../img/pidgeot.png":
-        document.getElementById("paragrafo").innerHTML = "Este Pokémon voa em velocidade Mach 2, em busca de presas. Suas grandes garras são temidas como armas perversas.";
-        break;
-    case "../img/megageot.png":
-        document.getElementById("paragrafo").innerHTML = "Com sua força muscular agora muito aumentada, ele pode voar continuamente por duas semanas sem descansar.";
-        break;
-    case "../img/shinygeot.png":
-        document.getElementById("paragrafo").innerHTML = "Este Pokémon voa em velocidade Mach 2, em busca de presas. Suas grandes garras são temidas como armas perversas.";
-        break;
-}
+    if (op == 1){
+        img.src = '/img/pidgeot.png';
+        paragrafo.innerHTML = "Este Pokémon voa em velocidade Mach 2, em busca de presas. Suas grandes garras são temidas como armas perversas.";
+    } else if (op == 2) {
+        img.src = '/img/megageot.png';
+        paragrafo.innerHTML = "Com sua força muscular agora muito aumentada, ele pode voar continuamente por duas semanas sem descansar.";
+    } else {
+        img.src = '/img/shinygeot.png';
+        paragrafo.innerHTML = "Este Pokémon voa em velocidade Mach 2, em busca de presas. Suas grandes garras são temidas como armas perversas.";
+    }
 }

@@ -11,7 +11,7 @@
     <link href="//db.onlinewebfonts.com/c/d2d21cf0ee4c1d969d8a4dccc587ab26?family=Flexo+Medium" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="/style/responsive2.css">
     <link rel="stylesheet" href="/style/propriedadesindex.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
     <title>Pokédex</title>
     <link rel="icon" 
@@ -24,30 +24,45 @@
 
             
             <div class="logo">
-                <img class="pokeball_img" src="img/pokeballdois.gif" width="50px" height="50px">
+                <img id="pokeball_img3" src="img/pokeballdois.gif" width="50px" height="50px">
                     <img class="logo_img" src="img/pokedexlogo.png">
-                    <img class="pokeball_img" src="img/pokeballdois.gif" width="50px" height="50px">
+                    <img id="pokeball_img23" src="img/pokeballdois.gif" width="50px" height="50px">
                 </div>
-                <nav class="nav justify-content-center" id="navMenu">
-                    <a class="nav-link" href="#kanto">KANTO</a>
-                    <a class="nav-link" href="#johto">JOHTO</a>
-                    <a class="nav-link" href="#hoenn">HOENN</a>
-                    <a class="nav-link" href="#sinnoh">SINNOH</a>
-                    <a class="nav-link" href="#unova">UNOVA</a>
-                    <a class="nav-link" href="#kalos">KALOS</a>
-                    <a class="nav-link" href="#alola">ALOLA</a>
-                    <a class="nav-link" href="#galar">GALAR</a>       
-                    <a class="nav-link" href="lideresdeginasio.html">LÍDERES DE GINÁSIO</a>     
+                <nav class="nav justify-content-center navMenu">
+                    <a class="nav-link" href="#kanto">
+                        <img id="pokeballimg1" class="pokeIcon" src="img/pokeballicon.png" width="25px" height="25px">KANTO</a>
+                    <a class="nav-link" href="#johto">
+                            <img id="pokeballimg2" class="pokeIcon" src="img/pokeballicon.png" width="25px" height="25px">JOHTO</a>
+                    <a class="nav-link" href="#hoenn">
+                            <img id="pokeballimg3" class="pokeIcon" src="img/pokeballicon.png" width="25px" height="25px">HOENN</a>
+                    <a class="nav-link" href="#sinnoh">
+                            <img id="pokeballimg4" class="pokeIcon" src="img/pokeballicon.png" width="25px" height="25px">SINNOH</a>
+                    <a class="nav-link" href="#unova">
+                            <img id="pokeballimg5" class="pokeIcon" src="img/pokeballicon.png" width="25px" height="25px">UNOVA</a>
+                    <a class="nav-link" href="#kalos">
+                            <img id="pokeballimg6" class="pokeIcon" src="img/pokeballicon.png" width="25px" height="25px">KALOS</a>
+                    <a class="nav-link" href="#alola">
+                            <img id="pokeballimg7" class="pokeIcon" src="img/pokeballicon.png" width="25px" height="25px">ALOLA</a>
+                    <a class="nav-link" href="#galar">
+                            <img id="pokeballimg8" class="pokeIcon" src="img/pokeballicon.png" width="25px" height="25px">GALAR</a>       
+                    <a class="nav-link" href="lideresdeginasio.html">
+                            <img id="pokeballimg9" class="pokeIcon" src="img/pokeballicon.png" width="25px" height="25px">LÍDERES DE GINÁSIO</a>     
                 </nav>
                 <br>
 
                 <a id="back-to-top"><i class="fa-solid fa-circle-arrow-up"></i></a>
+
+                <span class="random-button">
+                    <button id="random" onclick="randomPage(links,10)">
+                        Surpreenda-me
+                    </button>
+                </span>
                 
-                <div class="container-fluid text-center margin servicos">
+                <div class="container-fluid text-center">
                 <div class="container">
                 <section id="kanto">
-                    <div class="classeGeracao">1ª Geração: Kanto
-                        <select class="selecaoPokemon" onchange="window.location=this.options[this.selectedIndex].value">
+                    <div class="classeGeracaoKanto">1ª Geração: Kanto                 
+                        <select class="selecaoPokemonKanto" onchange="window.location=this.options[this.selectedIndex].value">
                         <option value="">Escolha um Pokémon</option>
                         <option value="kanto/bulbasaur.html">Nº001 - Bulbasaur</option>
                         <option value="kanto/ivysaur.html">Nº002 - Ivysaur</option>
@@ -74,15 +89,19 @@
                         <option value="kanto/ekans.html">Nº023 - Ekans</option>
                         <option value="kanto/arbok.html">Nº024 - Arbok</option>
                     </select>
-                    </div>
-                    </section>
+                    <span>
+                        <input type="checkbox" id="toggle" onclick="changeMode()">
+                        <label for="toggle" class="button"></label>
+                    </span>
+                </div>
+                </section>
                     
                     <div class="distanciaLogo">
                     <div class="row">
                         <div class="col-lg-3">
                             <a href="kanto/bulbasaur.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesGrass" src="img/bulbasaur.png"></a>
+                                <img id="a1" src="img/bulbasaur.png"></a>
                                 </div>  
                             <p class="numeroPoke">Nº001</p>
                             <p class="fonteNomePoke">Bulbasaur</p>
@@ -91,7 +110,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/ivysaur.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesGrass" src="img/ivysaur.png"></a>
+                                <img id="a2" src="img/ivysaur.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº002</p>
                             <p class="fonteNomePoke">Ivysaur</p>
@@ -100,7 +119,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/venusaur.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesGrass" src="img/venusaur.png"></a>
+                                <img id="a3" src="img/venusaur.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº003</p>
                             <p class="fonteNomePoke">Venusaur</p>
@@ -109,19 +128,19 @@
                         <div class="col-lg-3">
                             <a href="kanto/charmander.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesFire" src="img/charmander.png"></a>
+                                <img id="a4" src="img/charmander.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº004</p>
                             <p class="fonteNomePoke">Charmander</p>
                             <div class="elementosPoke"><p id="tipoFire">Fire</p></div>
                         </div>
                 <br><br>
-                <div class="container">
+                <div>
                     <div class="row">
                         <div class="col-lg-3">
                             <a href="kanto/charmeleon.html"> 
                                 <div class="img-container">
-                                <img  id="propriedadesFire" src="img/charmeleon.png"></a>
+                                <img  id="a5" src="img/charmeleon.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº005</p>
                             <p class="fonteNomePoke">Charmeleon</p>
@@ -130,7 +149,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/charizard.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesFire" src="img/charizard.png"></a>
+                                <img id="a6" src="img/charizard.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº006</p>
                             <p class="fonteNomePoke">Charizard</p>
@@ -139,7 +158,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/squirtle.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesWater" src="img/squirtle.png"></a>
+                                <img id="a7" src="img/squirtle.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº007</p>
                             <p class="fonteNomePoke">Squirtle</p>
@@ -148,7 +167,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/wartortle.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesWater" src="img/wartortle.png"></a>
+                                <img id="a8" src="img/wartortle.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº008</p>
                             <p class="fonteNomePoke">Wartortle</p>
@@ -156,12 +175,12 @@
                         </div>
                         
                 <br><br>
-                <div class="container">
+                <div>
                     <div class="row">
                         <div class="col-lg-3">
                             <a href="kanto/blastoise.html"> 
                                 <div class="img-container">
-                                <img  id="propriedadesWater" src="img/blastoise.png"></a>
+                                <img id="a9" src="img/blastoise.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº009</p>
                             <p class="fonteNomePoke">Blastoise</p>
@@ -170,7 +189,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/caterpie.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesBug" src="img/caterpie.png"></a>
+                                <img id="a10" src="img/caterpie.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº010</p>
                             <p class="fonteNomePoke">Caterpie</p>
@@ -179,7 +198,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/metapod.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesBug" src="img/metapod.png"></a>
+                                <img id="a11" src="img/metapod.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº011</p>
                             <p class="fonteNomePoke">Metapod</p>
@@ -188,7 +207,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/butterfree.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesBug" src="img/butterfree.png"></a>
+                                <img id="a12" src="img/butterfree.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº012</p>
                             <p class="fonteNomePoke">Butterfree</p>
@@ -196,12 +215,12 @@
                         </div>
                         
                 <br><br>
-                <div class="container">
+                <div>
                     <div class="row">
                         <div class="col-lg-3">
                             <a href="kanto/weedle.html"> 
                                 <div class="img-container">
-                                <img  id="propriedadesBug" src="img/weedle.png"></a>
+                                <img id="a13" src="img/weedle.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº013</p>
                             <p class="fonteNomePoke">Weedle</p>
@@ -210,7 +229,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/kakuna.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesBug" src="img/kakuna.png"></a>
+                                <img id="a14" src="img/kakuna.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº014</p>
                             <p class="fonteNomePoke">Kakuna</p>
@@ -219,7 +238,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/beedrill.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesBug" src="img/beedrill.png"></a>
+                                <img id="a15" src="img/beedrill.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº015</p>
                             <p class="fonteNomePoke">Beedrill</p>
@@ -228,7 +247,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/pidgey.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesNormal" src="img/pidgey.png"></a>
+                                <img id="a16" src="img/pidgey.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº016</p>
                             <p class="fonteNomePoke">Pidgey</p>
@@ -236,12 +255,12 @@
                         </div>
                         
                 <br><br>
-                <div class="container">
+                <div>
                     <div class="row">
                         <div class="col-lg-3">
                             <a href="kanto/pidgeotto.html"> 
                                 <div class="img-container">
-                                <img  id="propriedadesNormal" src="img/pidgeotto.png"></a>
+                                <img id="a17" src="img/pidgeotto.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº017</p>
                             <p class="fonteNomePoke">Pidgeotto</p>
@@ -250,7 +269,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/pidgeot.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesNormal" src="img/pidgeot.png"></a>
+                                <img id="a18" src="img/pidgeot.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº018</p>
                             <p class="fonteNomePoke">Pidgeot</p>
@@ -259,7 +278,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/rattata.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesNormal" src="img/rattata.png"></a>
+                                <img id="a19" src="img/rattata.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº019</p>
                             <p class="fonteNomePoke">Rattata</p>
@@ -268,7 +287,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/raticate.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesNormal" src="img/raticate.png"></a>
+                                <img id="a20" src="img/raticate.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº020</p>
                             <p class="fonteNomePoke">Raticate</p>
@@ -276,12 +295,12 @@
                         </div>
                         
                 <br><br>
-                <div class="container">
+                <div>
                     <div class="row">
                         <div class="col-lg-3">
                             <a href="kanto/spearow.html"> 
                                 <div class="img-container">
-                                <img  id="propriedadesNormal" src="img/spearow.png"></a>
+                                <img id="a21" src="img/spearow.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº021</p>
                             <p class="fonteNomePoke">Spearow</p>
@@ -290,7 +309,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/fearow.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesNormal" src="img/fearow.png"></a>
+                                <img id="a22" src="img/fearow.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº022</p>
                             <p class="fonteNomePoke">Fearow</p>
@@ -299,7 +318,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/ekans.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesPoison" src="img/ekans.png"></a>
+                                <img id="a23" src="img/ekans.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº023</p>
                             <p class="fonteNomePoke">Ekans</p>
@@ -308,7 +327,7 @@
                         <div class="col-lg-3">
                             <a href="kanto/arbok.html"> 
                                 <div class="img-container">
-                                <img id="propriedadesPoison" src="img/arbok.png"></a>
+                                <img id="a24" src="img/arbok.png"></a>
                                 </div>
                             <p class="numeroPoke">Nº024</p>
                             <p class="fonteNomePoke">Arbok</p>
@@ -341,7 +360,7 @@
                     <div class="col-lg-3">
                         <a href="johto/chikorita.html"> 
                             <div class="img-container">
-                            <img  id="propriedadesGrass" src="img/chikorita.png"></a>
+                            <img id="a25" src="img/chikorita.png"></a>
                             </div>  
                         <p class="numeroPoke">Nº152</p>
                         <p class="fonteNomePoke">Chikorita</p>
@@ -350,7 +369,7 @@
                     <div class="col-lg-3">
                         <a href="johto/bayleef.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/bayleef.png"></a>
+                            <img id="a26" src="img/bayleef.png"></a>
                             </div>
                         <p class="numeroPoke">Nº153</p>
                         <p class="fonteNomePoke">Bayleef</p>
@@ -359,7 +378,7 @@
                     <div class="col-lg-3">
                         <a href="johto/meganium.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/meganium.png"></a>
+                            <img id="a27" src="img/meganium.png"></a>
                             </div>
                         <p class="numeroPoke">Nº154</p>
                         <p class="fonteNomePoke">Meganium</p>
@@ -368,7 +387,7 @@
                     <div class="col-lg-3">
                         <a href="johto/cyndaquil.html"> 
                             <div class="img-container">
-                            <img id="propriedadesFire" src="img/cyndaquil.png"></a>
+                            <img id="a28" src="img/cyndaquil.png"></a>
                             </div>
                         <p class="numeroPoke">Nº155</p>
                         <p class="fonteNomePoke">Cyndaquil</p>
@@ -381,7 +400,7 @@
                     <div class="col-lg-3">
                         <a href="johto/quilava.html"> 
                             <div class="img-container">
-                            <img  id="propriedadesFire" src="img/quilava.png"></a>
+                            <img id="a29" src="img/quilava.png"></a>
                             </div>  
                         <p class="numeroPoke">Nº156</p>
                         <p class="fonteNomePoke">Quilava</p>
@@ -390,7 +409,7 @@
                     <div class="col-lg-3">
                         <a href="johto/typhlosion.html"> 
                             <div class="img-container">
-                            <img id="propriedadesFire" src="img/typhlosion.png"></a>
+                            <img id="a30" src="img/typhlosion.png"></a>
                             </div>
                         <p class="numeroPoke">Nº157</p>
                         <p class="fonteNomePoke">Typhlosion</p>
@@ -399,7 +418,7 @@
                     <div class="col-lg-3">
                         <a href="johto/totodile.html"> 
                             <div class="img-container">
-                            <img id="propriedadesWater" src="img/totodile.png"></a>
+                            <img id="a31" src="img/totodile.png"></a>
                             </div>
                         <p class="numeroPoke">Nº158</p>
                         <p class="fonteNomePoke">Totodile</p>
@@ -408,7 +427,7 @@
                     <div class="col-lg-3">
                         <a href="johto/croconaw.html"> 
                             <div class="img-container">
-                            <img id="propriedadesWater" src="img/croconaw.png"></a>
+                            <img id="a32" src="img/croconaw.png"></a>
                             </div>
                         <p class="numeroPoke">Nº159</p>
                         <p class="fonteNomePoke">Croconaw</p>
@@ -421,7 +440,7 @@
                     <div class="col-lg-3">
                         <a href="johto/feraligatr.html"> 
                             <div class="img-container">
-                            <img  id="propriedadesWater" src="img/feraligatr.png"></a>
+                            <img id="a33" src="img/feraligatr.png"></a>
                             </div>  
                         <p class="numeroPoke">Nº160</p>
                         <p class="fonteNomePoke">Feraligatr</p>
@@ -430,7 +449,7 @@
                     <div class="col-lg-3">
                         <a href="johto/sentret.html"> 
                             <div class="img-container">
-                            <img id="propriedadesNormal" src="img/sentret.png"></a>
+                            <img id="a34" src="img/sentret.png"></a>
                             </div>
                         <p class="numeroPoke">Nº161</p>
                         <p class="fonteNomePoke">Sentret</p>
@@ -439,7 +458,7 @@
                     <div class="col-lg-3">
                         <a href="johto/furret.html"> 
                             <div class="img-container">
-                            <img id="propriedadesNormal" src="img/furret.png"></a>
+                            <img id="a35" src="img/furret.png"></a>
                             </div>
                         <p class="numeroPoke">Nº162</p>
                         <p class="fonteNomePoke">Furret</p>
@@ -448,7 +467,7 @@
                     <div class="col-lg-3">
                         <a href="johto/hoothoot.html"> 
                             <div class="img-container">
-                            <img id="propriedadesNormal" src="img/hoothoot.png"></a>
+                            <img id="a36" src="img/hoothoot.png"></a>
                             </div>
                         <p class="numeroPoke">Nº163</p>
                         <p class="fonteNomePoke">Hoothoot</p>
@@ -473,7 +492,7 @@
                     <div class="col-lg-3">
                         <a href="hoenn/treecko.html"> 
                             <div class="img-container">
-                            <img  id="propriedadesGrass" src="img/treecko.png"></a>
+                            <img id="a37" src="img/treecko.png"></a>
                             </div>  
                         <p class="numeroPoke">Nº252</p>
                         <p class="fonteNomePoke">Treecko</p>
@@ -482,7 +501,7 @@
                     <div class="col-lg-3">
                         <a href="hoenn/grovyle.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/grovyle.png"></a>
+                            <img id="a38"src="img/grovyle.png"></a>
                             </div>
                         <p class="numeroPoke">Nº253</p>
                         <p class="fonteNomePoke">Grovyle</p>
@@ -491,7 +510,7 @@
                     <div class="col-lg-3">
                         <a href="hoenn/sceptile.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/sceptile.png"></a>
+                            <img id="a39" src="img/sceptile.png"></a>
                             </div>
                         <p class="numeroPoke">Nº254</p>
                         <p class="fonteNomePoke">Sceptile</p>
@@ -500,7 +519,7 @@
                     <div class="col-lg-3">
                         <a href="hoenn/torchic.html"> 
                             <div class="img-container">
-                            <img id="propriedadesFire" src="img/torchic.png"></a>
+                            <img id="a40"src="img/torchic.png"></a>
                             </div>
                         <p class="numeroPoke">Nº255</p>
                         <p class="fonteNomePoke">Torchic</p>
@@ -527,7 +546,7 @@
                     <div class="col-lg-3">
                         <a href="sinnoh/turtwig.html"> 
                             <div class="img-container">
-                            <img  id="propriedadesGrass" src="img/turtwig.png"></a>
+                            <img id="a41" src="img/turtwig.png"></a>
                             </div>  
                         <p class="numeroPoke">Nº387</p>
                         <p class="fonteNomePoke">Turtwig</p>
@@ -536,7 +555,7 @@
                     <div class="col-lg-3">
                         <a href="sinnoh/grotle.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/grotle.png"></a>
+                            <img id="a42" src="img/grotle.png"></a>
                             </div>
                         <p class="numeroPoke">Nº388</p>
                         <p class="fonteNomePoke">Grotle</p>
@@ -545,7 +564,7 @@
                     <div class="col-lg-3">
                         <a href="sinnoh/torterra.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/torterra.png"></a>
+                            <img id="a43" src="img/torterra.png"></a>
                             </div>
                         <p class="numeroPoke">Nº389</p>
                         <p class="fonteNomePoke">Torterra</p>
@@ -554,7 +573,7 @@
                     <div class="col-lg-3">
                         <a href="sinnoh/chimchar.html"> 
                             <div class="img-container">
-                            <img id="propriedadesFire" src="img/chimchar.png"></a>
+                            <img id="a44" src="img/chimchar.png"></a>
                             </div>
                         <p class="numeroPoke">Nº390</p>
                         <p class="fonteNomePoke">Chimchar</p>
@@ -579,7 +598,7 @@
                     <div class="col-lg-3">
                         <a href="unova/victini.html"> 
                             <div class="img-container">
-                            <img  id="propriedadesPsy" src="img/victini.png"></a>
+                            <img id="a45" src="img/victini.png"></a>
                             </div>  
                         <p class="numeroPoke">Nº494</p>
                         <p class="fonteNomePoke">Victini</p>
@@ -588,7 +607,7 @@
                     <div class="col-lg-3">
                         <a href="unova/snivy.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/snivy.png"></a>
+                            <img id="a46" src="img/snivy.png"></a>
                             </div>
                         <p class="numeroPoke">Nº495</p>
                         <p class="fonteNomePoke">Snivy</p>
@@ -597,7 +616,7 @@
                     <div class="col-lg-3">
                         <a href="unova/servine.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/servine.png"></a>
+                            <img id="a47" src="img/servine.png"></a>
                             </div>
                         <p class="numeroPoke">Nº496</p>
                         <p class="fonteNomePoke">Servine</p>
@@ -606,7 +625,7 @@
                     <div class="col-lg-3">
                         <a href="unova/serperior.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/serperior.png"></a>
+                            <img id="a48" src="img/serperior.png"></a>
                             </div>
                         <p class="numeroPoke">Nº497</p>
                         <p class="fonteNomePoke">Serperior</p>
@@ -632,7 +651,7 @@
                     <div class="col-lg-3">
                         <a href="kalos/chespin.html"> 
                             <div class="img-container">
-                            <img  id="propriedadesGrass" src="img/chespin.png"></a>
+                            <img  id="a49" src="img/chespin.png"></a>
                             </div>  
                         <p class="numeroPoke">Nº650</p>
                         <p class="fonteNomePoke">Chespin</p>
@@ -641,7 +660,7 @@
                     <div class="col-lg-3">
                         <a href="kalos/quilladin.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/quilladin.png"></a>
+                            <img id="a50" src="img/quilladin.png"></a>
                             </div>
                         <p class="numeroPoke">Nº651</p>
                         <p class="fonteNomePoke">Quilladin</p>
@@ -650,7 +669,7 @@
                     <div class="col-lg-3">
                         <a href="kalos/chesnaught.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/chesnaught.png"></a>
+                            <img id="a51" src="img/chesnaught.png"></a>
                             </div>
                         <p class="numeroPoke">Nº652</p>
                         <p class="fonteNomePoke">Chesnaught</p>
@@ -659,7 +678,7 @@
                     <div class="col-lg-3">
                         <a href="kalos/fennekin.html"> 
                             <div class="img-container">
-                            <img id="propriedadesFire" src="img/fennekin.png"></a>
+                            <img id="a52" src="img/fennekin.png"></a>
                             </div>
                         <p class="numeroPoke">Nº653</p>
                         <p class="fonteNomePoke">Fennekin</p>
@@ -685,7 +704,7 @@
                     <div class="col-lg-3">
                         <a href="alola/rowlet.html"> 
                             <div class="img-container">
-                            <img  id="propriedadesGrass" src="img/rowlet.png"></a>
+                            <img id="a53" src="img/rowlet.png"></a>
                             </div>  
                         <p class="numeroPoke">Nº722</p>
                         <p class="fonteNomePoke">Rowlet</p>
@@ -694,7 +713,7 @@
                     <div class="col-lg-3">
                         <a href="alola/dartrix.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/dartrix.png"></a>
+                            <img id="a54" src="img/dartrix.png"></a>
                             </div>
                         <p class="numeroPoke">Nº723</p>
                         <p class="fonteNomePoke">Dartrix</p>
@@ -703,7 +722,7 @@
                     <div class="col-lg-3">
                         <a href="alola/decidueye.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/decidueye.png"></a>
+                            <img id="a55" src="img/decidueye.png"></a>
                             </div>
                         <p class="numeroPoke">Nº724</p>
                         <p class="fonteNomePoke">Decidueye</p>
@@ -712,7 +731,7 @@
                     <div class="col-lg-3">
                         <a href="alola/litten.html"> 
                             <div class="img-container">
-                            <img id="propriedadesFire" src="img/litten.png"></a>
+                            <img id="a56" src="img/litten.png"></a>
                             </div>
                         <p class="numeroPoke">Nº725</p>
                         <p class="fonteNomePoke">Litten</p>
@@ -738,7 +757,7 @@
                     <div class="col-lg-3">
                         <a href="galar/grookey.html"> 
                             <div class="img-container">
-                            <img  id="propriedadesGrass" src="img/grookey.png"></a>
+                            <img id="a57" src="img/grookey.png"></a>
                             </div>  
                         <p class="numeroPoke">Nº810</p>
                         <p class="fonteNomePoke">Grookey</p>
@@ -747,7 +766,7 @@
                     <div class="col-lg-3">
                         <a href="galar/thwackey.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/thwackey.png"></a>
+                            <img id="a58" src="img/thwackey.png"></a>
                             </div>
                         <p class="numeroPoke">Nº811</p>
                         <p class="fonteNomePoke">Thwackey</p>
@@ -756,7 +775,7 @@
                     <div class="col-lg-3">
                         <a href="galar/rillaboom.html"> 
                             <div class="img-container">
-                            <img id="propriedadesGrass" src="img/rillaboom.png"></a>
+                            <img id="a59" src="img/rillaboom.png"></a>
                             </div>
                         <p class="numeroPoke">Nº812</p>
                         <p class="fonteNomePoke">Rillaboom</p>
@@ -765,7 +784,7 @@
                     <div class="col-lg-3">
                         <a href="galar/scorbunny.html"> 
                             <div class="img-container">
-                            <img id="propriedadesFire" src="img/scorbunny.png"></a>
+                            <img id="a60" src="img/scorbunny.png"></a>
                             </div>
                         <p class="numeroPoke">Nº813</p>
                         <p class="fonteNomePoke">Scorbunny</p>
@@ -777,8 +796,11 @@
                     <p id="rodape">Desenvolvido por Gabriel de Mattos.</p>
                 </footer>
 
+
                 <script src="https://kit.fontawesome.com/5e682d64bc.js" crossorigin="anonymous"></script>
                 <script src="js/backtop.js"></script>
+                <script src="js/darkmode.js"></script>
+                <script src="js/randombutton.js"></script>
 
 </body>
 </html>

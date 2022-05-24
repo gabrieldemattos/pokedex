@@ -43,11 +43,13 @@
 
             <p>Versões:</p>
 
-                <div class="btn">
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/beedrill.png");'> Beedrill</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/megabeedrill.png");'> Mega Beedrill</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/shinybeedrill.png");'> Shiny Beedrill</button><br>
-                </div>
+                <div>
+                    <select class="optionPokemon" id="selectOption" onchange='changeImage();'>
+                        <option value="1">Beedrill</option>
+                        <option value="2">Mega Beedrill</option>
+                        <option value="3">Shiny Beedrill</option>
+                    </select>
+                </div>     
 
                 <p>Tipo</p>
                 <a class="elementosPoke">

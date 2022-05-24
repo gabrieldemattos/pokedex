@@ -9,6 +9,10 @@ body{
     text-align: center;
 }
 
+.pokeIcon{
+    margin-right: 10px;
+}
+
 #navMenu{
     background-color: white;
 }

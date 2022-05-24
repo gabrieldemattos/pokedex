@@ -43,12 +43,13 @@
 
             <p>Versões:</p>
 
-                <div class="btn">
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/rattata.png", descricao);'> Rattata</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/alolanrattata.png", descricao);'> Alolan Rattata </button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/shinyrattata.png", descricao);'> Shiny Rattata</button><br>
-                </div>
-                
+                <div>
+                    <select class="optionPokemon" id="selectOption" onchange='changeImage();'>
+                        <option value="1">Rattata</option>
+                        <option value="2">Alolan Rattata</option>
+                        <option value="3">Shiny Rattata</option>
+                    </select>
+                </div>                   
 
                 <p>Tipo</p>
                 <a class="elementosPoke">

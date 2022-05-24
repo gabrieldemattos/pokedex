@@ -1,10 +1,6 @@
-@media screen and (max-width:1000px){
+@media screen and (max-width:1350px){
     .logo_img{
         width: 200px;
-    }
-
-    .pokeball_img{
-        width: 50px;
     }
 
     .numeroPoke{
@@ -27,5 +23,25 @@
 
     #rodape{
         font-size: 15px;
+    }
+
+    .classeGeracao {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .selecaoPokemonKanto{
+        margin-left: 0px;
+    }
+
+    .classeGeracaoKanto{
+        margin-top: 15px;
+        flex-direction: column;
+    }
+
+    .button{
+        margin-top: 15px;
     }
 }

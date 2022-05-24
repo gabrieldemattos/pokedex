@@ -1,31 +1,17 @@
-function changeImage(a) {
-    document.getElementById("img").src=a;
+function changeImage(){
+    var op = document.getElementById('selectOption').value;
 
-switch(a){
-    case "../img/venusaur.png":
-        document.getElementById("paragrafo").innerHTML = "Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz do sol.";
-        break;
-    case "../img/megavenu.png":
+    if (op == 1){
+        document.getElementById('paragrafo').innerHTML = "Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz do sol.";
+        document.getElementById('img').src = '/img/venusaur.png'
+    } else if (op == 2){
         document.getElementById("paragrafo").innerHTML = "Para sustentar sua flor, que cresceu devido à Mega Evolução, suas costas e pernas ficaram mais fortes.<br><br>";
-        break;
-    case "../img/shinyvenu.png":
-        document.getElementById("paragrafo").innerHTML = "Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz do sol.";
-        break;
-    case "../img/gigantamaxvenu.png":
+        document.getElementById("img").src = '/img/megavenu.png'
+    } else if (op == 3){
+        document.getElementById('paragrafo').innerHTML = "Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz do sol.";
+        document.getElementById('img').src = '/img/shinyvenu.png'
+    } else {
         document.getElementById("paragrafo").innerHTML = "Enormes quantidades de pólen irromperam dele com a força de uma erupção vulcânica. Respirar muito pólen pode causar desmaios.";
-        break;
+        document.getElementById('img').src = '/img/gigantamaxvenu.png'
+    }
 }
-}
-
-
-/* if (a == "../img/venusaur.png") {
-    document.getElementById("paragrafo").innerHTML = "Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz do sol.";
-} else if (a == "../img/megavenu.png") {
-    document.getElementById("paragrafo").innerHTML = "Para sustentar sua flor, que cresceu devido à Mega Evolução, suas costas e pernas ficaram mais fortes.";
-} else if (a == "../img/shinyvenu.png") {
-    document.getElementById("paragrafo").innerHTML = "Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz do sol.";
-}else {
-    document.getElementById("img").src=a;
-    document.getElementById("paragrafo").innerHTML = "Enormes quantidades de pólen irromperam dele com a força de uma erupção vulcânica. Respirar muito pólen pode causar desmaios.";
-}
-} */

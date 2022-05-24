@@ -43,12 +43,14 @@
 
             <p>Versões:</p>
 
-                <div class="btn">
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/blastoise.png");'> Blastoise</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/megatoise.png");'> Mega Blastoise</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/shinytoise.png");'> Shiny Blastoise</button><br>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/gigantamaxtoise.png");'> Gigantamax Blastoise</button><br>
-                </div>
+                <div>
+                    <select class="optionPokemon" id="selectOption" onchange='changeImage();'>
+                        <option value="1">Blastoise</option>
+                        <option value="2">Mega Blastoise</option>
+                        <option value="3">Shiny Blastoise</option>
+                        <option value="4">Gigantamax Blastoise</option>
+                    </select>
+                </div>   
 
                 <p>Tipo</p>
                 <a class="elementosPoke">

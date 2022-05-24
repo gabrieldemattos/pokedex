@@ -1,4 +1,4 @@
-@media screen and (max-width:700px){
+@media screen and (max-width:1350px){
     body .container{
         display: flex;
         flex-direction: column;
@@ -24,7 +24,8 @@
     }
 
     .imagem{
-        width: 100%;
+        width: 490px;
+        height: 500px;
         text-align: center;
     }
 
@@ -54,15 +55,10 @@
         display: flex;
         flex-wrap: wrap;
     }
-
-    .btn{
-        flex-basis: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: 90px;
-    }
-
-    .botaoTrocar{
-        margin-right: 5px;
-    }
 }   
+
+@media screen and (max-width:700px){
+    .imagem{
+        width: 100%;
+    }
+}

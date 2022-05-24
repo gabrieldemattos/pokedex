@@ -42,12 +42,13 @@
 
             <p>Versões:</p>
 
-                <div class="btn">
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/sceptile.png", descricao);'> Sceptile</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/megasceptile.png", descricao);'> Mega Sceptile</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/shinysceptile.png", descricao);'> Shiny Sceptile</button><br>
-                </div>
-                
+            <div>
+                <select class="optionPokemon" id="selectOption" onchange='changeImage();'>
+                    <option value="1">Sceptile</option>
+                    <option value="2">Mega Sceptile</option>
+                    <option value="3">Shiny Sceptile</option>
+                </select>
+            </div>                 
 
                 <p>Tipo</p>
                 <a class="elementosPoke">

@@ -43,13 +43,14 @@
 
             <p>Versões:</p>
 
-                <div class="btn">
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/pidgeot.png");'> Pidgeot</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/megageot.png");'> Mega Pidgeot</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/shinygeot.png");'> Shiny Pidgeot</button><br><br>
-                </div>
+                <div>
+                    <select class="optionPokemon" id="selectOption" onchange='changeImage();'>
+                        <option value="1">Pidgeot</option>
+                        <option value="2">Mega Pidgeot</option>
+                        <option value="3">Shiny Pidgeot</option>
+                    </select>
+                </div>     
                 
-
                 <p>Tipo</p>
                 <a class="elementosPoke">
                  <p class="tipoNormal">Normal</p>

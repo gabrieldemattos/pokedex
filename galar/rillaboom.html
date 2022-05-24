@@ -42,10 +42,12 @@
 
             <p>Versões:</p>
 
-                
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/rillaboom.png");'> Rillaboom</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/gigantamaxrillaboom.png");'> Gigantamax Rillaboom</button><br><br>
-                
+                <div>
+                    <select class="optionPokemon" id="selectOption" onchange='changeImage();'>
+                        <option value="1">Rillaboom</option>
+                        <option value="2">Gigantamax Rillaboom</option>
+                    </select>
+                </div>  
 
                 <p>Tipo</p>
                 <a class="elementosPoke">

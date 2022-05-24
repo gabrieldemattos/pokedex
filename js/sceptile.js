@@ -1,43 +1,29 @@
-function changeImage(a) {
-    document.getElementById("img").src=a;
-
-switch(a){
-    case "../img/sceptile.png":
-        document.getElementById("descricaoDois").style.display = 'none';
-        document.getElementById("fraquezas").style.display = 'none';
-        document.getElementById("fraquezasDois").style.display = 'none';
-        document.getElementById("fraquezasTres").style.display = 'block';
-    break;
-    case "../img/megasceptile.png":
-        document.getElementById("descricaoDois").style.display = 'block';
-        document.getElementById("fraquezas").style.display = 'block';
-        document.getElementById("fraquezasDois").style.display = 'block';
-        document.getElementById("fraquezasTres").style.display = 'none';
-    break;
-    case "../img/shinysceptile.png":
-        document.getElementById("descricaoDois").style.display = 'none';
-        document.getElementById("fraquezas").style.display = 'none';
-        document.getElementById("fraquezasDois").style.display = 'none';
-        document.getElementById("fraquezasTres").style.display = 'block';
-    break;
+function changeImage(){
+    const img = document.getElementById('img');
+    const op = document.getElementById('selectOption').value;
+    const descricaoDois = document.getElementById("descricaoDois");
+    const fraquezas = document.getElementById("fraquezas");
+    const fraquezasDois = document.getElementById("fraquezasDois");
+    const fraquezasTres = document.getElementById("fraquezasTres");
+    const paragrafo = document.getElementById("paragrafo");
+    
+    if (op == 1){
+        img.src = '/img/sceptile.png'
+        descricaoDois.style.display = 'none';
+        fraquezas.style.display = 'none';
+        fraquezasDois.style.display = 'none';
+        fraquezasTres.style.display = 'block';
+    } else if (op == 2){
+        img.src = '/img/megasceptile.png'
+        descricaoDois.style.display = 'block';
+        fraquezas.style.display = 'block';
+        fraquezasDois.style.display = 'block';
+        fraquezasTres.style.display = 'none';
+    } else {
+        img.src = '/img/shinysceptile.png';
+        descricaoDois.style.display = 'none';
+        fraquezas.style.display = 'none';
+        fraquezasDois.style.display = 'none';
+        fraquezasTres.style.display = 'block';
+    }
 }
-}
-
-/* if (a == "../img/sceptile.png") {
-    document.getElementById("descricaoDois").style.display = 'none';
-    document.getElementById("fraquezas").style.display = 'none';
-    document.getElementById("fraquezasDois").style.display = 'none';
-    document.getElementById("fraquezasTres").style.display = 'block';
-} else if (a == "../img/megasceptile.png") {
-    document.getElementById("descricaoDois").style.display = 'block';
-    document.getElementById("fraquezas").style.display = 'block';
-    document.getElementById("fraquezasDois").style.display = 'block';
-    document.getElementById("fraquezasTres").style.display = 'none';
-} else {
-    document.getElementById("img").src=a;
-    document.getElementById("descricaoDois").style.display = 'none';
-    document.getElementById("fraquezas").style.display = 'none';
-    document.getElementById("fraquezasDois").style.display = 'none';
-    document.getElementById("fraquezasTres").style.display = 'block';
-}
-} */

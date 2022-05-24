@@ -43,11 +43,12 @@
 
             <p>Versões:</p>
 
-                <div class="btn">
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/typhlosion.png");'> Typhlosion</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/shinytyphlosion.png");'> Shiny Typhlosion </button><br>
-                </div>
-                
+            <div>
+                <select class="optionPokemon" id="selectOption" onchange='changeImage();'>
+                    <option value="1">Typhlosion</option>
+                    <option value="2">Shiny Typhlosion</option>
+                </select>
+            </div>   
 
                 <p>Tipo</p>
                 <a class="elementosPoke">
@@ -65,7 +66,7 @@
 
 
             <script src="https://kit.fontawesome.com/5e682d64bc.js" crossorigin="anonymous"></script>
-            <script src="/js/changeimg.js"></script>
+            <script src="/js/typhlosion.js"></script>
 
 </body>
 </html>

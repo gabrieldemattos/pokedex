@@ -43,13 +43,14 @@
 
             <p>Versões:</p>
 
-                <div class="btn">
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/venusaur.png", descricao);'> Venusaur</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/megavenu.png", descricao);'> Mega Venusaur </button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/shinyvenu.png", descricao);'> Shiny Venusaur </button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/gigantamaxvenu.png", descricao);'> Gigantamax Venusaur</button><br>
-                </div>
-                
+                <div>
+                    <select class="optionPokemon" id="selectOption" onchange='changeImage();'>
+                        <option value="1">Venusaur</option>
+                        <option value="2">Mega Venusaur</option>
+                        <option value="3">Shiny Venusaur</option>
+                        <option value="4">Gigantamax Venusaur</option>
+                    </select>
+                </div>            
 
                 <p>Tipo</p>
                 <a class="elementosPoke">

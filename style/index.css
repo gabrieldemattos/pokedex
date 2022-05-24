@@ -1,4 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/d2d21cf0ee4c1d969d8a4dccc587ab26?family=Flexo+Medium);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 @font-face {font-family: "Flexo Medium"; src: url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.eot"); src: url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.woff") format("woff"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.svg#Flexo Medium") format("svg"); }
 
@@ -6,13 +7,97 @@ body{
     background: #424242 url(../img/container_bg.png);
 }
 
+body.dark-mode{
+    background: black url(../img/container_bg.png);
+}
+
+.random-button{
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+}
+
+#random{
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: "Flexo Medium";
+    padding: 5px 15px;
+    background-color: rgb(158, 51, 56);
+    border: 3px rgb(158, 51, 56) solid;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#random:hover{
+    color: rgb(192, 189, 189);
+    animation: tremer .1s;
+    animation-iteration-count: 2;
+    transform: scale(1.2,1.2);
+}
+
+/* keyframe para ajustar até onde treme */
+@keyframes tremer {
+    0% {margin-left: 0;}
+    25% {margin-left: 7px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -7px;}
+    100% {margin-left: 0;}
+}
+
+#toggle {
+    display: none;
+}
+
+.button {
+    display: inline-block;
+    width: 90px;
+    height: 35px;
+    background-color: rgb(231, 220, 220);
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button::after {
+    content: url('/img/lightmode.png');
+    width: 35px;
+    height: 39px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    position: absolute;
+    top: -5px;
+    left: 0;
+    display: grid;
+    place-content: center;
+    line-height: 0;
+    transition: background-color 1s,
+        transform 1s ease-in;
+}
+
+#toggle:checked+.button::after {
+    content: url('/img/darkmode.png');
+    transform: translateX(50px) rotate(360deg);
+}
+
 .logo{
     background: linear-gradient(9000deg, white, red);
     text-align: center;
 }
 
-#navMenu{
+.navMenu{
     background-color: white;
+    margin-top: -1px;
+}
+
+.pokeIcon{
+    margin-right: 10px;
+}
+
+#pokeball_img{
+    margin-right: 5px;
 }
 
 #back-to-top {
@@ -25,12 +110,8 @@ body{
 }
 
 #back-to-top:hover {
-    position: fixed;
-    bottom: 50px;
-    right: 10px;
-    font-size: 50px;
     cursor: pointer;
-    color: rgb(88, 86, 86);
+    color: rgb(114, 23, 23);
     transition: 0.5s;
 }
 
@@ -44,10 +125,15 @@ body{
     border-radius: 15px;
     color: black;
 }
- 
+
+.container-dark-mode{
+    font-weight: bold;
+    background: rgb(40,42,54);
+    border-radius: 15px;
+    color: white;
+}
+
 .img-container img{
-    width: 100%;
-    height: 100%;
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
  }
@@ -66,7 +152,6 @@ body{
 
 .fonteNomePoke{
     font-family: "Flexo Medium";
-    color:black;
     font-size:22px;
     display: flex;
     margin-left: 30px;
@@ -82,7 +167,18 @@ body{
 }
 
 .classeGeracao{
-    text-align: left;
+    font-size: 40px;
+    font-family: "Flexo Medium";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.classeGeracaoKanto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     font-size: 40px;
     font-family: "Flexo Medium";
 }
@@ -92,7 +188,18 @@ body{
     font-size: 20px;
     font-family: "Flexo Medium";
     margin-left: 10px;
-    border: 1px solid black;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.selecaoPokemonKanto{
+    text-align: left;
+    font-size: 20px;
+    font-family: "Flexo Medium";
+    margin-left: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: -440px;
 }
 
 .nav-link{

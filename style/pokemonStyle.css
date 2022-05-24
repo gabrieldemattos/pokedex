@@ -43,7 +43,17 @@ header nav a:hover{
 #icone-voltar{
     width: 50px;
     margin-top: 10px;
+    animation: rotate 3s infinite linear;
 }
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
 
 .container{
     margin-top: 25px;
@@ -88,36 +98,18 @@ header nav a:hover{
     margin-left: 25px;
 }
 
+.optionPokemon{
+    font-size: 20px;
+    font-family: "Flexo Medium";
+    border: 3px solid black;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
 .elementosPoke{
     font-family: "Flexo Medium";
     display: flex;
     margin-top: -15px;
-}
-
-.botaoTrocar{
-    background-color: rgb(105, 104, 104);
-    border: none;
-    font-size: 20px;
-    color: white;
-    
-    padding: 4px 4px;
-    border-radius: 5px 5px;
-
-    cursor: pointer;
-    transition: .3s ease all;
-    margin-bottom: 10px;
-}
-
-.botaoTrocar:hover{
-    background-color: rgb(26, 127, 241);
-    color: white;
- }
-
-.botaoTrocar:focus{
-    background-color: rgb(26, 127, 241);
-    color: white;
-    transform: scale(0.96);
-    box-shadow: 5px 4px 24px 3px rgba(0, 0, 0, 0.24);
 }
 
 ::-webkit-scrollbar{

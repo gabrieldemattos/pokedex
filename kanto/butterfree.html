@@ -43,12 +43,13 @@
 
             <p>Versões:</p>
 
-                <div class="btn">
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/butterfree.png");'> Butterfree</button>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/shinybutterfree.png");'> Shiny Butterfree</button><br>
-                <button class="botaoTrocar" role="button" onclick='changeImage("../img/gigantamaxbutterfree.png");'> Gigantamax Butterfree</button><br>
-                </div>
-                
+                <div>
+                    <select class="optionPokemon" id="selectOption" onchange='changeImage();'>
+                        <option value="1">Butterfree</option>
+                        <option value="2">Shiny Butterfree</option>
+                        <option value="3">Gigantamax Butterfree</option>
+                    </select>
+                </div>                   
 
                 <p>Tipo</p>
                 <a class="elementosPoke">

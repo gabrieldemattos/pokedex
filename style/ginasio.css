@@ -4,6 +4,12 @@ body{
     background: url(../img/container_bg.png);
 }
 
+#sound{
+    width: 250px;
+    height: 30px;
+    margin-left: 5px;
+}
+
 .logo{
     background: linear-gradient(9000deg, white, red);
     text-align: center;

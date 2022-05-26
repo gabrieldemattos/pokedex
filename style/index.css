@@ -11,6 +11,12 @@ body.dark-mode{
     background: black url(../img/container_bg.png);
 }
 
+#sound{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+}
+
 .random-button{
     font-size: 25px;
     margin-bottom: 30px;
@@ -196,10 +202,9 @@ body.dark-mode{
     text-align: left;
     font-size: 20px;
     font-family: "Flexo Medium";
-    margin-left: 10px;
     border: 3px solid black;
     border-radius: 10px;
-    margin-left: -440px;
+    margin-left: -100px;
 }
 
 .nav-link{

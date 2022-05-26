@@ -18,10 +18,8 @@
       type="image/jpg" 
       href="img/pokedex.jpg" />
 
-
 </head>
 <body>
-
             
             <div class="logo">
                 <img id="pokeball_img3" src="img/pokeballdois.gif" width="50px" height="50px">
@@ -57,7 +55,7 @@
                         Surpreenda-me
                     </button>
                 </span>
-                
+            
                 <div class="container-fluid text-center">
                 <div class="container">
                 <section id="kanto">
@@ -89,6 +87,10 @@
                         <option value="kanto/ekans.html">Nº023 - Ekans</option>
                         <option value="kanto/arbok.html">Nº024 - Arbok</option>
                     </select>
+                    <audio controls="controls" id="sound" autoplay="autoplay" preload="auto" loop="loop" volume="0.1">
+                        <source src="sound/pokemon-abertura.wav" type="audio/wav">
+                        Seu navegador não tem suporte a Tag Audio.
+                   </audio>
                     <span>
                         <input type="checkbox" id="toggle" onclick="changeMode()">
                         <label for="toggle" class="button"></label>
@@ -801,6 +803,7 @@
                 <script src="js/backtop.js"></script>
                 <script src="js/darkmode.js"></script>
                 <script src="js/randombutton.js"></script>
+                <script src="js/volume.js"></script>
 
 </body>
 </html>
